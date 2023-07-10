@@ -89,7 +89,7 @@ with open(os.path.join(os.getcwd(),"accession.txt"), "w") as accession:
 with open(os.path.join(os.getcwd(),"write_accession_sequences.txt"), "w") as accession_sequences:
     accession.write(f"the identified accession identifiers sequences are:")
     accession.write("\n")
-    accession.write(f"{blast_accession_sequences.keys()}\t{blast_accession_sequences.values()}"")
+    accession.write(f"{blast_accession_sequences.keys()}\t{blast_accession_sequences.values()}")
     accession.close()
 snap.stop()
 snap.save()
