@@ -58,15 +58,15 @@ genome_blast = genome_dataframe["sequences"].to_list()
 genome_blast_list = {}
 for i in range(len(names)):
     genome_blast_list[names[i]] = gget.blast(genome_blast[i], wrap_text=True)[["Description", "Scientific Name", "Taxid", "E value",\
-                                                                          "Accession"]].where(check["Per. Ident"] == "100.00%").dropna()
+                                                                          "Accession"]].where(gget.blast(genome_blast[i], wrap_text=True)["Per. Ident"] == "100.00%").dropna()
 accession_blast_list = {}
 for i in range(len(names)):
     accession_blast_list[names[i]] = gget.blast(genome_blast[i], wrap_text=True)[["Description", "Scientific Name", "Taxid", "E value",\
-                                                                   "Accession"]].where(check["Per. Ident"] == "100.00%").dropna()["Accession"].to_list()
+                                                                   "Accession"]].where(gget.blast(genome_blast[i], wrap_text=True)["Per. Ident"] == "100.00%").dropna()["Accession"].to_list()
 tax_blast_list = {}
 for i in range(len(names)):
     tax_blast_list[names[i]] = gget.blast(genome_blast[i], wrap_text=True)[["Description", "Scientific Name", "Taxid", "E value",\
-                                                                    "Accession"]].where(check["Per. Ident"] == "100.00%").dropna()["Taxid"].to_list()                                                                    
+                                                                    "Accession"]].where(gget.blast(genome_blast[i], wrap_text=True)["Per. Ident"] == "100.00%").dropna()["Taxid"].to_list()                                                                    
 blast_accession_ids = []
 for i in range(len(list(genome_blast_list.values()))):
     blast_accession_ids.append(list(genome_blast_list.values())[i]["Accession"].to_list())
