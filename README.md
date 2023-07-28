@@ -1,4 +1,4 @@
-# API_scalable_parallel_faster_implementation_of_genomic_transcriptomics_annotations
+# scalable_parallel_faster_implementation_of_genomic_transcriptomics_annotations
 This repository contains a scalable and faster implementation of the API based inferences for the genome and the transcriptome annotations for large scale sequencing datasets. 
 Gaurav Sablok \
 Senior Postdoctoral Fellow \
@@ -12,6 +12,4 @@ WOS: https://www.webofscience.com/wos/author/record/C-5940-2014 \
 Github:https://github.com/sablokgaurav \
 Linkedln: https://www.linkedin.com/in/sablokgaurav/ \
 ResearchGate: https://www.researchgate.net/profile/Gaurav-Sablok \
-Plant Bioinformatics | Illumina | PacBio | OxfordNanoPore | Transcriptomics | \
-Genomics | Metagenomics | DevOPS | Data Engineering and Analyst | \
-Python | R | Java | Scala | Bash | DJANGO | Machine Learning \
+
