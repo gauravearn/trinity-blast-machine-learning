@@ -1,5 +1,5 @@
 # scalable_parallel_faster_implementation_of_genomic_transcriptomics_annotations
-This repository contains a scalable and faster implementation of the API based inferences for the genome and the transcriptome annotations for large scale sequencing datasets. 
+This repository contains a scalable and faster implementation of the genome and the transcriptome annotations for large scale sequencing datasets. 
 Gaurav Sablok \
 Senior Postdoctoral Fellow \
 Faculty of Natural and Agricultural Sciences Room 7-35, \
