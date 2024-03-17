@@ -1,4 +1,4 @@
-#!usr//bin/python3
+#!usr/bin/python3
 # Universitat Potsdam
 # Author Gaurav Sablok
 # date: 2024-2-22
