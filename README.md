@@ -4,7 +4,7 @@ the transcripts and provides a faster and comprehensive approach to the blast an
 
 Support for the tokenizers and sequence based machine learning. 
 
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
